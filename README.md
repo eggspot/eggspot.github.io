@@ -1,85 +1,53 @@
-# Gastby Starter Ghost
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<p align="center">
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby's blog starter now with 100% more MDX
+</h1>
 
-A starter template to build lightning fast websites with [Ghost](https://ghost.org) & [Gatsby](https://gatsbyjs.org)
+Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React, with support for an MDX blog.
 
-**Demo:** https://gatsby.ghost.org
+_Have another more specific idea? You may want to check out this awesome collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
-&nbsp;
+What's MDX you ask? MDX let's you use JSX in your Markdown, making it even
+easier to write blog posts, document your React components, and much more. [Find
+out more about MDX](https://github.com/mdx-js/mdx), and [gatsby-mdx](https://github.com/ChristopherBiscardi/gatsby-mdx), the plugin that makes
+this blog possible!
 
-![gatsby-starter-ghost](https://user-images.githubusercontent.com/120485/50913567-8ab8e380-142c-11e9-9e78-de02ded12fc6.jpg)
+## 🚀 Quick start
 
-&nbsp;
+1.  **Create a Gatsby site.**
 
+    Use the Gatsby CLI to create a new site, specifying the blog starter.
 
-# Installing
+    ```sh
+    # create a new Gatsby site using the blog starter
+    npx gatsby new my-blog-starter
+    https://github.com/hagner/gatsby-starter-blog-mdx
+    ```
 
-```bash
-# With Gatsby CLI
-gatsby new gatsby-starter-ghost https://github.com/TryGhost/gatsby-starter-ghost.git
-```
+1.  **Start developing.**
 
-```bash
-# From Source
-git clone git@github.com:TryGhost/gatsby-starter-ghost.git
-cd gatsby-starter-ghost
-```
+    Navigate into your new site’s directory and start it up.
 
-Then install dependencies
+    ```sh
+    cd my-blog-starter/
+    gatsby develop
+    ```
 
-```bash
-yarn
-```
+1.  **Open the source code and start editing!**
 
-&nbsp;
+    Your site is now running at `http://localhost:8000`!
 
-# Running
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-Start the development server. You now have a Gatsby site pulling content from headless Ghost.
+    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-```bash
-gatsby develop
-```
+## 💫 Deploy
 
-By default, the starter will populate content from a default Ghost install located at https://gatsby.ghost.io.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
 
-To use your own install, edit the `.ghost.json` config file with your credentials. You can find or your `contentApiKey` in the "Integrations" screen in Ghost Admin.
-
-&nbsp;
-
-# Deploying with Netlify
-
-The starter contains three config files specifically for deploying with Netlify. A `netlify.toml` file for build settings, a `/static/_headers` file with default security headers set for all routes, and `/static/_redirects` to set Netlify custom domain redirects.
-
-To deploy to your Netlify account, hit the button below.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/)
-
-Content API Keys are generally not considered to be sensitive information, they exist so that they can be changed in the event of abuse; so most people commit it directly to their `.ghost.json` config file. If you prefer to keep this information out of your repository you can remove this config and set [Netlify ENV variables](https://www.netlify.com/docs/continuous-deployment/#build-environment-variables) for production builds instead.
-
-Once deployed, you can set up a [Ghost + Netlify Integration](https://docs.ghost.org/integrations/netlify/) to use deploy hooks from Ghost to trigger Netlify rebuilds. That way, any time data changes in Ghost, your site will rebuild on Netlify.
-
-&nbsp;
-
-# Optimising
-
-You can disable the default Ghost Handlebars Theme front-end by enabling the `Make this site private` flag within your Ghost settings. This enables password protection in front of the Ghost install and sets `<meta name="robots" content="noindex" />` so your Gatsby front-end becomes the source of truth for SEO.
-
-&nbsp;
-
-# Extra options
-
-```bash
-# Run a production build, locally
-gatsby build
-
-# Serve a production build, locally
-gatsby serve
-```
-
-Gatsby `develop` uses the `development` config in `.ghost.json` - while Gatsby `build` uses the `production` config.
-
-&nbsp;
-
-# Copyright & License
-
-Copyright (c) 2013-2019 Ghost Foundation - Released under the [MIT license](LICENSE).
+<!-- AUTO-GENERATED-CONTENT:END -->
